@@ -1,0 +1,58 @@
+.edit-movie-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-movie-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-movie-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-movie-form label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #555;
+}
+
+.edit-movie-form input,
+.edit-movie-form select,
+.edit-movie-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.edit-movie-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.edit-submit-btn {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #bb0606;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-submit-btn:hover {
+  background-color: #530303;
+}
